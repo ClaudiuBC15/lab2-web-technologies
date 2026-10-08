@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recapitulare WEB</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="antet">
+      <div>
+        <h1>GreenLeaf Studio</h1>
+        <p>Design modern pentru afaceri mici</p>
+      </div>
+      <nav aria-label="Meniu principal">
+        <a href="#despre">Despre</a>
+        <a href="#servicii">Servicii</a>
+        <a href="#preturi">Prețuri</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="despre" class="sectiune">
+        <h2>Despre noi</h2>
+        <p>
+          GreenLeaf Studio ajută afaceri mici să își construiască o identitate digitală clară,
+          elegantă și ușor de recunoscut. Ne concentrăm pe soluții simple, eficiente și
+          prietenoase pentru clienți.
+        </p>
+        <ul class="lista">
+          <li>Branding consistent</li>
+          <li>Web design responsiv</li>
+          <li>Materiale promoționale</li>
+          <li>Consultanță digitală</li>
+        </ul>
+        <p>
+          Mai multe detalii găsiți în
+          <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">
+            documentația HTML
+          </a>.
+        </p>
+      </section>
+
+      <section id="servicii" class="sectiune">
+        <h2>Servicii</h2>
+        <div class="lista-carduri">
+          <article class="card">
+            <h3>Identitate vizuală</h3>
+            <p>Creare de logo, paletă de culori și reguli de branding.</p>
+            <p class="pret">de la 350 lei</p>
+          </article>
+
+          <article class="card">
+            <h3>Website business</h3>
+            <p>Pagini atractive, clare și optimizate pentru mobil.</p>
+            <p class="pret">de la 800 lei</p>
+          </article>
+
+          <article class="card">
+            <h3>Campanii promoționale</h3>
+            <p>Materiale grafice și strategii pentru promovarea brandului.</p>
+            <p class="pret">de la 500 lei</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="preturi" class="sectiune">
+        <h2>Prețuri</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Denumire</th>
+              <th>Categorie</th>
+              <th>Preț</th>
+              <th>Stoc</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pachet Start</td>
+              <td>Website</td>
+              <td>800 lei</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Brand Pack</td>
+              <td>Branding</td>
+              <td>350 lei</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Promo Kit</td>
+              <td>Marketing</td>
+              <td>500 lei</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>Business Plus</td>
+              <td>Website</td>
+              <td>1200 lei</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contact" class="sectiune">
+        <h2>Solicită informații</h2>
+        <form>
+          <div class="form-group">
+            <label for="nume">Nume</label>
+            <input id="nume" name="nume" type="text" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="categorie">Categorie</label>
+            <select id="categorie" name="categorie">
+              <option value="website">Website</option>
+              <option value="branding">Branding</option>
+              <option value="marketing">Marketing</option>
+              <option value="consultanta">Consultanță</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mesaj">Mesaj</label>
+            <textarea id="mesaj" name="mesaj" rows="4"></textarea>
+          </div>
+
+          <button type="submit">Trimite</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 GreenLeaf Studio • Exemplu complet pentru laboratorul de Tehnologii WEB</p>
+    </footer>
+  </body>
+</html>
